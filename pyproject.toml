@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "slack-bot"
+version = "0.1.0"
+description = ""
+authors = ["M <anr.mgzv@gmail.com>"]
+readme = "README.md"
+packages = [{include = "slack_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+slackclient = "^2.9.4"
+python-decouple = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
