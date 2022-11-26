@@ -1,1 +1,1 @@
-It's my version the easiest python slack bot
+It's my version of the easiest python slack bot
